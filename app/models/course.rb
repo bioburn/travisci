@@ -1,7 +1,7 @@
 class Course < ActiveRecord::Base
 
     def course_num
-     #   return dept + " " + num
+        return dept + " " + num
     end
         
 
