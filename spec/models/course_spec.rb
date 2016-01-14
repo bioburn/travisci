@@ -19,7 +19,7 @@ RSpec.describe Course, :type => :model do
     let(:course_instance) { Course.create(dept: "Swordfighting", num: "77", desc: "swordfighting for noobs") }
     describe "public instance methods" do
        context "result equals expected" do
-            it { expect(course_instance.course_num).to eq("swordfighting 77 swordfighting for noobs") }  
+            it { expect(course_instance.course_num).to eq("swordfighting 77") }  
        end
     end
     
